@@ -45,6 +45,31 @@ console.log('How are your doing bitch?')
 
 `hey()`
 
+### Arrow Functions
+
+This is another way of declaring functions without using the `function keyword`. For simple functions, the `block` and the `return` keyword is not a **`MUST`**.
+
+**Example**
+
+`const greetNeighbour = () => console.log('Hello')`
+
+`const sum = (a, b) =>{
+    const total = a + b;
+    console.log(total);
+}
+`
+
+
+If the function only have one parameter, the parenthesis is not required. For more than one parameter, parenthesis is required. 
+
+When returning an object in an arrow function, make sure you wrap the object in a parenthesis.
+
+**Example**
+
+`const person = (firstName, lastName) => return {first: firstName, last: lastName);`
+
+The code snippet above logs an error when called because the function return is not inside a parenthesis.
+
 
 
 
