@@ -66,9 +66,30 @@ When returning an object in an arrow function, make sure you wrap the object in 
 
 **Example**
 
-`const person = (firstName, lastName) => return {first: firstName, last: lastName);`
+`const person = (firstName, lastName) => return {first: firstName, last: lastName});`
 
 The code snippet above logs an error when called because the function return is not inside a parenthesis.
+
+**Valid solution**
+
+`const person = (firstName, lastName) => return ({first: firstName, last: lastName}));`
+
+**Arrow functions and scope**
+Regular functions do not block `this`.
+
+### Objects and Arrays
+
+Most of the creative techniques provided by objects and arrays are widely used in **React**.
+
+**Example**
+
+1. [ ] Destructuring
+2. [ ] Object Literal enhancement
+3. [ ] Spread Operator.
+
+
+
+
 
 
 
