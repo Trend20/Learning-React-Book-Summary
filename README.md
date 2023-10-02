@@ -112,6 +112,21 @@ destructure
 
 `const {bread, cheese} = sandwich;`
 
+**Array Destructuring**
+
+
+**Object Literal Enhancement**
+
+This is the opposite of destructuring as it entails putting the objects together(`restructuring`).
+
+**Example**
+
+`const name = 'Mike'`
+
+`const school = 'Naiboi'`
+
+`const student = {name, school};`
+
 
 
 
