@@ -88,6 +88,29 @@ Most of the creative techniques provided by objects and arrays are widely used i
 3. [ ] Spread Operator.
 
 
+**Destructuring Objects**
+
+Destructuring assignment allows you to locally scope fields within an
+object and to declare which values will be used.
+
+**Example**
+
+consider the object:
+
+`const sandwich = {`
+
+    bread: 'dutch crunch',
+
+    meat: 'tuna',
+
+    cheese: 'swiss',
+
+    toppings:["lettuce", "tomato", "mustard"]
+`}`
+
+destructure
+
+`const {bread, cheese} = sandwich;`
 
 
 
